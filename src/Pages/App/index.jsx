@@ -26,7 +26,7 @@ const App = () => {
   } 
   return (
     <>
-    <section className='w-full sm:bg-[#46435b] sm:h-[100vh] flex  items-center justify-center'>
+    <section className='w-full sm:bg-[#18152c] sm:h-[100vh] flex  items-center justify-center'>
       <div className='sm:bg-white sm:rounded-3xl w-full sm:w-[700px] sm:h-[550px] flex smMax:flex-col sm:flex-row-reverse items-center  justify-center smMax:pb-16'>
         <div className='header-ilustration sm:w-[40%] smMax:w-full h-[25rem] sm:h-[470px] sm:rounded-3xl img'></div>
         <div className='smMax:w-[90%] sm:w-[55%] text-[1.6rem] flex flex-col justify-start gap-7 gray'>
