@@ -17,6 +17,10 @@ html{
   font-size: 62.5%;
   font-family: 'Roboto',Arial, Helvetica, sans-serif ;
 }
+main{
+  width: 100%;
+  height: 100%;
+}
 .header-ilustration{
   background-image:url(../../assets/illustration-sign-up-mobile.svg) ;
 }
@@ -28,6 +32,7 @@ html{
 .roboto_bold{
   font-family: 'Roboto-bold';
   color: #242742;
+  line-height: 4rem ;
 }
 .gray{
   color: #36384e;
@@ -40,3 +45,12 @@ span.icon_list::before{
   top: .5rem;
 }
 
+.btnActive:hover{
+  background: linear-gradient(80deg, rgba(6, 9, 59, 0.875) -100%, #ff6257 100%);
+}
+@media (min-width:701px) {
+  .header-ilustration{
+    background-image: url(../../assets/illustration-sign-up-desktop.svg);
+  }
+  
+}
